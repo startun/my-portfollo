@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    font-size: 18px;
+    background-image: linear-gradient(to bottom left, #ef3838, #1883bb);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 84px;
+    align-items: center;
+
+}
+
+
+img{
+    max-width: 100%;
+}
+.logo{
+    font-size: 32px;        
+    color: #eeeeee;
+
+}
+.logo > span{
+    color: #ef3838;
+}
+.nav{
+    display: flex;
+    gap: 34px;
+
+}
+.nav > a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.header-action{
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #af3838;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 18px;
+
+}
+.header-action:hover{
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    color: #af3838;
+}
+
+/* hero section */
+
+.hero{
+    padding: 48px 84px;
+    color: #eeeeee;
+    display: flex;
+    align-items: center;
+
+
+
+}
+.hero > div{
+    width: 50%;
+}
+.hero p{
+    font-weight: 700;
+    font-size: 14px;
+
+}
+.hero h2{
+    font-size: 48px;
+
+}
+.hero h2 > strong{
+    color: #af3838;
+    display: block;
+
+
+}
+.action-button-group{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+.action-button-primary{
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #af3838;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 18px;
+    background-color: #af3838;
+
+}
+.action-button-secondary{
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #af3838;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 18px;
+
+}
+.hero-image-container{
+    height: 60vh;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 18px;
+    margin-left: auto;
+    background-image: linear-gradient(to left, #ef3838, #1883bb);
+    padding: 24px;
+}
+.hero-image-container > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+
+}
